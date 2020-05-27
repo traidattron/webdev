@@ -9,6 +9,7 @@
 @c-36b: #36b662;
 @c-a9a: #a9aaad;
 @screen-mobile: 575px;
+@screen-mw-desktop: (@screen-mobile + 1);
 a{
   color: inherit;
   &:hover{
@@ -25,10 +26,5 @@ img{
     content: '';
     display: table;
     clear: both;
-  }
-}
-.my-lg-0{
-  @media(max-width: @screen-mobile){
-    width: 100%;
   }
 }

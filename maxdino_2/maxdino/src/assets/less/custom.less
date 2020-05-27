@@ -145,15 +145,15 @@ body{
   position: relative;
   background-color: #ffffff;
   
-  .border-radius(6px);
-  .width(191px);
+  border-radius: 6px;
+  width: 191px;
   .dropdown-search-icon{
     position: absolute;
-    .width(20px);
+    width: 20px;
   }
   .dropdown-arrow-down-icon{
     position: absolute;
-    .width(10px);
+    width: 10px;
     right: 10px;
   }
   .dropdown-ask-icon{
@@ -165,14 +165,17 @@ body{
   }
 }
 .my-lg-0{
+
   position: relative;
   margin-left: 30px;
   ::placeholder{
     padding-left: 40px;
   }
   .mr-sm-2{
-    width: 570px;
     border-radius: 19px;
+    @media only (min-width:  @screen-mw-desktop){
+      width: 570px;
+    }
   }
   .my-sm-0{
     position: absolute;
