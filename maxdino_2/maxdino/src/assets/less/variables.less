@@ -8,7 +8,7 @@
 @c-f9f: #f9f9f9;
 @c-36b: #36b662;
 @c-a9a: #a9aaad;
-
+@screen-mobile: 575px;
 a{
   color: inherit;
   &:hover{
@@ -25,5 +25,10 @@ img{
     content: '';
     display: table;
     clear: both;
+  }
+}
+.my-lg-0{
+  @media(max-width: @screen-mobile){
+    width: 100%;
   }
 }
