@@ -1,0 +1,143 @@
+body{
+  font-family: "Montserrat",sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.5;
+  color: @c-383;
+  background-color: @c-f9f;
+  @media only screen and (max-width: 575px) {
+  	background-color: red;
+	}
+}
+.navbar-maxdino {
+    background-color: @c-383;
+    border: none;
+    border-radius: 0;
+    color: @c-fff;
+}
+
+.section{
+  border-radius: 5px;
+  background-color:  @c-fff;
+  padding: 15px 20px;
+  .section-title{
+    font-size: 12px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid @c-f9f;
+    text-transform: uppercase;
+    a{
+      float: right;
+      .clear-both;
+      color: @c-36b;
+      text-transform: none;
+    }
+  }
+  &.section-news{
+    background: none;
+    border-radius: 0;
+    padding: 0;
+    .item-news{
+      position: relative;
+      .item-news-content{
+        top: 0;
+        left: 0;
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+        color: @c-fff;
+        padding: 10px;
+        font-size: 12px;
+        .item-news-title{
+          font-size: 14px;
+          font-weight: bold;
+        }
+        .item-news-detail{
+          margin: 5px 0 10px 0; 
+        }
+        .item-news-name{
+          font-size: 10px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  &.section-video{
+    .item-video{
+      margin-top: 20px;
+      .item-video-img{
+        position: relative;
+        margin-bottom: 10px;
+        a{
+          position: absolute;
+          font-size: 45px;
+          color: @c-fff;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+      .item-video-title{
+
+      }
+    }
+  }
+  &.section-connection{
+    .item-connection{
+      padding: 10px 0;
+      position: relative;
+      .item-connection-img{
+        position: absolute;
+        top: 10px;
+        left: 0;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+      }
+      .item-connection-content{
+        padding-left: 40px;
+        .user-name{
+          color: @c-36b;
+        }
+        span{ color: @c-a9a; }
+        .text{
+          color: @c-383;
+        }
+      }
+    }
+  }
+  &.section-post{
+    padding: 20px;
+    box-shadow: 0 15px 27px 0 rgba(56, 58, 74, 0.1);
+    + div{ margin-top: 20px; }
+    &.feed{
+      box-shadow: none;
+    }
+    .head-post{
+      position: relative;
+      .avatar-user{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+      }
+      .head-post-content{
+        padding-left: 52px;
+        .head-post-name-user{
+          font-weight: bold;
+          color: @c-36b;
+        }
+        .head-post-story-subtitle{
+          > div{  }
+        }
+        .date{
+
+        }
+        .public{
+
+        }
+      }
+    }
+  }
+}
