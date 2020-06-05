@@ -1,0 +1,7 @@
+-- Run db.json on server
+  npm install json-server --save-dev
+  add it into script: "server": "json-server -p3001 --watch db.json"
+  npm run server
+ 
+ -- install axios 
+  npm install axios --save
