@@ -10,3 +10,11 @@
   --start a app clone from repo
   npm install
   npm start
+
+--convert font:
++ dowload font
++ choose font we need (regular, bold,...) and convert into 5 types (ttf, eot, woff, woff2, svg)
++ place these files converted to new folder (named Raleway) ./font/Raleway
++ copy stylesheet.css and paste to _font.scss AND adjust url
++ in _custom.scss, in body elector, change font-family
+
