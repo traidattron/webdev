@@ -16,3 +16,6 @@ functions: merge an array, copy and update an object, simpler function Calls
 PART3-SERVER SIDE
 --express (libraries):  ease server side development with Node by pleasing interface to work with than the built-in http module
 --nodemon: nodemone will observe any changed files in directory where nodemon is started. Then nodemon automatically restart ur node application 
+--REST: architectural style meant for building a scalable web
+--curl: is used in commandline or script to transfer data
+--POSTMAN: collaboration platform for API development, Postman's features simplify each step of building an API and streamline collaboration so you can create better APIs—faster
