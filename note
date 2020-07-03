@@ -18,3 +18,12 @@
 + copy stylesheet.css and paste to _font.scss AND adjust url
 + in _custom.scss, in body elector, change font-family
 
+--implement node application:
+npm install --save-dev nodemon
+ "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    ...
+  },
+  npm run dev (make sure all library or dependencies is installed)
+  
