@@ -28,5 +28,28 @@ PART3-SERVER SIDE
     == and the response must only return data that already exists on the server
   + idempotency: if a request has side-effects, then the result should be same regardless of how many times the request is sent
 
-
-
+--REDUX:
++ the state is stored in a "store"
++ state of store is changed with "action"
+  == action example:
+  {
+    type: 'INCREMENT'
+  }
++ impact of the action to the stage defined using a "reducer"
+  == reducer: a function, parameters: current state and action, return a new state
+  == reducer example: 
+    const counterReducer = (state = 0, action) => {
+      switch (action.type) {
+        case 'INCREMENT':
+          return state + 1
+        case 'DECREMENT':
+          return state - 1
+        case 'ZERO':
+          return 0
+        default: // if none of the above matches, code comes here
+          return state
+        }
+      }
+   == Reducer is only given as a parameter to the "createStore-function"
+   == The STORE now uses the REDUCER to HANDLE ACTIONS, which are DISPATCHED or 'sent' to the store with its "dispatch-method"
+   
