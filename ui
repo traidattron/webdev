@@ -1,0 +1,16 @@
+rules to code css/html:
+
+
+need to research:
+- Specificity Hierarchy:
+  + inline styles -> id -> classes, [attributes], pseudo-classes -> elements, pseudo-elements
+- col-6 col-sm-3
+- how to keep css clean:
+  + advoid global and element selectors
+  + Avoid Overly Specific Selectors
+  + Don’t Chain Classes
+  + Avoid Using id Selectors
+  + Use Semantic Class Names
+- scss/sass: CSS preprocessor
+  + scss: nested rules, variable = $, @import,...
+  + quy tắc mixin: 
