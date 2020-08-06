@@ -29,3 +29,4 @@ npm install --save-dev nodemon
   + application start by "npm start"
   + "npm run dev" run the application and restart the server whenever changes are made and saved to a file in the source code
   
+---magic command line to fix npm: npm config set registry https://skimdb.npmjs.com/registry
