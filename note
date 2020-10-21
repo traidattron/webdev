@@ -30,3 +30,32 @@ npm install --save-dev nodemon
   + "npm run dev" run the application and restart the server whenever changes are made and saved to a file in the source code
   
 ---magic command line to fix npm: npm config set registry https://skimdb.npmjs.com/registry
+---responsive according to root:
+ font-size: (14 / $df-fs) * $rem;
+
+$df-fs: 14;
+$tablet-fs: 18;
+$rem: 1rem;
+
+
+
+
+
+html {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  font-size: ($df-fs/1440  100)  $vw;
+  @media (max-width: 767px) {
+    font-size: ($tablet-fs/767  100)  $vw;
+  }
+}
+
+body {
+  font-family: $sfui-regular;
+  height: 100vh;
+  font-size: (14 / $df-fs) * $rem;
+  @media (max-width: 767px) {
+    font-size: (36 / $tablet-fs) * $rem;
+  }
+}
