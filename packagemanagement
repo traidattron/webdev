@@ -1,0 +1,2 @@
+-- install eslint to enforce coding style:
+npm install --save-dev eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser
