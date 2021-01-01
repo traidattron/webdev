@@ -1,0 +1,4 @@
+Reactjs:
+- UI library
+- no enforce architecture pattern
+- underneath user interface is tree of several React components
