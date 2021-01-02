@@ -2,3 +2,6 @@ Reactjs:
 - UI library
 - no enforce architecture pattern
 - underneath user interface is tree of several React components
+Library & Framework:
+- Library: Library is program or instruction written by someone else and we use as needed
+- Framework: to provide a boilerplate or base wire frame to build applications on
