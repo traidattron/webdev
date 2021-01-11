@@ -1,0 +1,10 @@
+--Undo trategy: a->b->c
++ git checkout: git checkout b
+                git checkout -b code_without_c: from here a new code without c commit
++ git revert (shared public changes): 
+  git revert HEAD: revert a published commit -> create a commit revert
+  not for curated & minimal Git history
++ git reset (local private change):
+  git reset --hard <commit>: cleanest history
+  greate for local changes, not up to date when sharing branch remote
+  
